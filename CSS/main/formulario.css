@@ -1,13 +1,19 @@
 #formulario {
     width: 100%;
     display: flex;
+    gap: 150px;
     align-items: flex-start;
     justify-content: center;
-    gap: 150px;
     background-color: #EAF2FD;
     padding: 60px 120px;
     margin-top: 60px;
     
+}
+
+#formulario .general-form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 #formulario .formulario {
@@ -51,4 +57,10 @@
 #formulario .formulario form button {
     width: 165px;
     height: 51px;
+}
+
+@media  (max-width: 768px) {
+    #formulario .general-form {
+        display: none;
+    }
 }

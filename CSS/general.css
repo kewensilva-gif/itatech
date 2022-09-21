@@ -30,3 +30,9 @@ input, textarea {
     border: none;
     outline: none; 
 }
+
+@media (max-width: 1090px){
+    header {
+        width: 100%;
+    }
+}

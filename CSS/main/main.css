@@ -5,6 +5,7 @@ main .main-background {
     overflow: hidden;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
 main .main-background .inter-shadow {
