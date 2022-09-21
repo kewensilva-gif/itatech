@@ -29,10 +29,6 @@ main .main-background .conteudo {
 main .main-background .conteudo button {
     width: 100px;
     height: 40px;
-    border: none;
-    background-color: var(--bg-azul);
-    color: #fff;
-    cursor: pointer;
 }
 
 

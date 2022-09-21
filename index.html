@@ -7,13 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Itatech</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="CSS/general.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/main/main.css">
     <link rel="stylesheet" href="CSS/main/produtos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="CSS/main/formulario.css">
+    <link rel="stylesheet" href="CSS/footer.css">
 </head>
 
 <body>
@@ -30,7 +32,7 @@
 
         </div>
 
-        <div class="btn-login">Login</div>
+        <a href="login.html"><button class="btn-login">Login</button></a>
     </header>
     <main>
 
@@ -197,9 +199,33 @@
                     </div>
                 </div>
         </section>
+
+        <section id="formulario">
+            <img src="./img/logo.svg" alt="Logo Itatech" class="logo">
+
+            <ul class="lista-formulario">
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Políticas de<br>privacidade</a></li>
+                <li><a href="#">Programa de fidelidade</a></li>
+                <li><a href="#">Novas tendências</a></li>
+                <li><a href="#">Quero ser franquiciado</a></li>
+                <li><a href="#">Anuncie aqui</a></li>
+            </ul>
+            <div class="formulario">
+                <h3>Fale conosco</h3>
+                <form action="">
+                    <div class="form-name">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" placeholder="Digite seu nome">
+                    </div>
+                    <textarea rows="4" cols="60" maxlength="500" placeholder="Escrever sua mensagem"></textarea>
+                    <button type="submit">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <p>Desenvolvido por &copykewensilva-gif<br>2022</p>
     </footer>
 </body>
 

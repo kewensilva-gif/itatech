@@ -1,0 +1,54 @@
+#formulario {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 150px;
+    background-color: #EAF2FD;
+    padding: 60px 120px;
+    margin-top: 60px;
+    
+}
+
+#formulario .formulario {
+    gap: 15px;
+}
+
+#formulario .lista-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#formulario .lista-formulario a {
+    color: var(--bg-preto);
+}
+
+#formulario .formulario, form, .form-name {
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario .formulario .form-name {
+    background-color: white;
+}
+
+#formulario .formulario .form-name label {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #A2A2A2;
+}
+
+#formulario .formulario .form-name input, textarea {
+    padding: 5px 0 5px 10px;
+}
+
+#formulario .formulario form {
+    gap: 10px;
+}
+
+#formulario .formulario form button {
+    width: 165px;
+    height: 51px;
+}

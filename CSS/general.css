@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    --bg-azul: #2A7AE4;
+    --bg-preto: #464646;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.logo {
+    width: 170px;
+    transform: translatey(2px);
+}
+
+button {
+    border: none;
+    background-color: var(--bg-azul);
+    color: #fff;
+    cursor: pointer;
+}
+
+input, textarea {
+    border: none;
+    outline: none; 
+}
