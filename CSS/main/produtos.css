@@ -10,8 +10,8 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 0 120px;
     margin: 50px 0 20px 0;
+
 }
 
 .produtos .title h3 {
@@ -28,8 +28,15 @@
 
 .products-all {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
+
+.max .products-all div {
+    flex: 1 1 174px;
+}
+
+
 .conteudo-produto {
     display: flex;
     flex-direction: column;
@@ -37,8 +44,7 @@
 }
 
 .conteudo-produto img {
-    width: 176px;
-    height: 174px;
+    width: 174px;
     border: none;
 }
 

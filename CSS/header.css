@@ -12,6 +12,7 @@ header .logo-input-header {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 60px;
 }
 
 header .input-header {
