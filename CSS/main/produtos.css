@@ -1,0 +1,11 @@
+.produtos {
+    width: 100%;
+}
+.produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+}
