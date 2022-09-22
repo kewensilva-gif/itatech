@@ -37,6 +37,10 @@ input, textarea {
     outline: none; 
 }
 
+.general-form {
+    gap: 150px;
+}
+
 @media (max-width: 1150px){
     .general-form {
         display: flex;
