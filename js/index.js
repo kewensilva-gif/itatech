@@ -113,6 +113,7 @@ function createProducts(key, section, object){
     nome.innerText = object[key].nome;
     preco.innerText = object[key].preco;
     link.innerText = object[key].link;
+    link.setAttribute("href", object[key].link);
 
     conteudo.appendChild(imagem);
     conteudo.appendChild(nome);
